@@ -13,54 +13,174 @@
 </head>
 <body>
 
-    <!-- navbar -->
-    <div class="row p-0 m-0 g-0 fixed-top">
-        <nav class="col navbar navbar-expand-lg navbar-dark bg-light p-0">
-            <div class="container-fluid p-0" style="background-color:#452A13; color: #D9920F; height:100px">
-                <a class="navbar-brand fs-2" style="color: #D9920F;" href="home.html">Modern Day Warrior</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" >
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll" style="background-color:#452A13;">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100%;">
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #D9920F;" href="home.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #D9920F;" href="schedule.html">Class Schedule</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" style="color: #D9920F;" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Training
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" style="color: #D9920F;" href="solo.html">One-on-One</a></li>
-                                <li><a class="dropdown-item" style="color: #D9920F;" href="group.html">Group Sessions</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" style="color: #D9920F;" href="in-home.html">Train from Home</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #D9920F;" href="about.html">About MDW</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #D9920F;" href="contact.html">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #D9920F;" href="signin.html">Sign In</a>
-                        </li>
-                    </ul>
-                </div>
+<!-- navbar -->
+<div class="row p-0 m-0 g-0 fixed-top">
+    <nav class="col navbar navbar-expand-lg navbar-dark bg-light p-0">
+        <div class="container-fluid p-0" style="background-color:#171211; color: #D9920F; height:100px">
+            <a class="navbar-brand fs-2" style="color: #D9920F;" href="home.html">Modern Day Warrior</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll" style="background-color:#171211;">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100%;">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #D9920F;" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #D9920F;" href="schedule.html">Class Schedule</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: #D9920F;" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Training
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" style="color: #D9920F;" href="solo.html">One-on-One</a></li>
+                            <li><a class="dropdown-item" style="color: #D9920F;" href="group.html">Group Sessions</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" style="color: #D9920F;" href="in-home.html">Train from Home</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #D9920F;" href="about.html">About MDW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #D9920F;" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #D9920F;" href="signin.html">Sign In</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-        <a class="col-2 col-xl-1 text-decoration-none text-center fs-4" style="background-color:#132E45; color: #FBBB04" href="register.html">Sign Up</a>
-    </div>
-    <!-- end navbar -->
+        </div>
+    </nav>
+    <a class="col-2 col-xl-1 text-decoration-none text-center fs-4" style="background-color:#132E45; color: #FBBB04" href="register.html">Join</a>
+</div>
+<!-- end navbar -->
+
+<!-- main image  -->
 <img src="./static/miguel-bruna-TzVN0xQhWaQ-unsplash.jpg" alt="Silhouette of a human with long wavy hair and one fist raised against an ombre background." class="pt-5 mt-5" style="width:100%">
 Photo by <a href="https://unsplash.com/@mbrunacr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Miguel Bruna</a> on <a href="https://unsplash.com/s/photos/warrior?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-    <!-- footer -->
+<!-- end main image  -->
+<section>
+    <ul class="nav nav-tabs" id="weekday-tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="monday-tab" data-bs-toggle="tab" data-bs-target="#monday" type="button" role="tab" aria-controls="monday" aria-selected="true">Monday</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="tuesday-tab" data-bs-toggle="tab" data-bs-target="#tuesday" type="button" role="tab" aria-controls="tuesday" aria-selected="true">Tuesday</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="wednesday-tab" data-bs-toggle="tab" data-bs-target="#wednesday" type="button" role="tab" aria-controls="wednesday" aria-selected="true">Wednesday</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="thursday-tab" data-bs-toggle="tab" data-bs-target="#thursday" type="button" role="tab" aria-controls="thursday" aria-selected="true">Thursday</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="friday-tab" data-bs-toggle="tab" data-bs-target="#friday" type="button" role="tab" aria-controls="friday" aria-selected="true">Friday</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="saturday-tab" data-bs-toggle="tab" data-bs-target="#saturday" type="button" role="tab" aria-controls="saturday" aria-selected="true">Saturday</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="sunday-tab" data-bs-toggle="tab" data-bs-target="#sunday" type="button" role="tab" aria-controls="sunday" aria-selected="true">Sunday</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="weekday-tab-content">
+        <div class="tab-pane fade show active" id="monday" role="tabpanel" aria-labelledby="monday-tab">
+            <ul>
+                <li>this class</li>
+                <li>this class</li>
+                <li>this class</li>
+                <li>this class</li>
+                <li>this class</li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="tuesday" role="tabpanel" aria-labelledby="tuesday-tab">
+            <ul>
+                <li>this class</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="wednesday" role="tabpanel" aria-labelledby="wednesday-tab">
+            <ul>
+                <li>that class</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="thursday" role="tabpanel" aria-labelledby="thursday-tab">
+            <ul>
+                <li>new class</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="friday" role="tabpanel" aria-labelledby="friday-tab">
+            <ul>
+                <li>this class</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="saturday" role="tabpanel" aria-labelledby="saturday-tab">
+            <ul>
+                <li>this class</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="sunday" role="tabpanel" aria-labelledby="sunday-tab">
+            <ul>
+                <li>this class</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</section>
 
-    <!-- end footer -->
+<div>
+    <p>Not sure about our classes?</p>
+    <p>Try One Today</p>
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="logo">
+        <img src="https://via.placeholder.com/250x100" alt="">
+    </div>
+    <div class="address">
+        <p>1234 Fitness Ave.</p>
+        <p>Boise, ID 83642</p>
+    </div>
+    <div class="phone-number">
+        <p>555-555-1234</p>
+    </div>
+    <div class="social-media-links">
+        <a href="#"><i href="#" class="fa-brands fa-xl fa-facebook-f" ></i></a>
+        <a href="#"><i href="#" class="fa-brands fa-xl fa-twitter"></i></a>
+        <a href="#"><i href="#" class="fa-brands fa-xl fa-instagram"></i></a>
+        <a href="#"><i href="#" class="fa-brands fa-xl fa-youtube"></i></a>
+        <a href="#"><i href="#" class="fa-brands fa-xl fa-tiktok"></i></a>
+    </div>
+    <div class="copyright" style="text-align:center">
+        <p>&copy; 2022 Gym Website KDonaldson designs</p>
+    </div>
+</footer>
+<!-- end footer -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>

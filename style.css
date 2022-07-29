@@ -2,3 +2,27 @@
     /* border: 1px solid red; */
     font-family:Didot, Cochin, Cambria, Georgia, Times, 'Times New Roman', serif;
 }
+
+.location{
+    color: #f1ad2f;
+}
+
+.web-map:link {
+    color: #FBBB04;
+}
+
+.web-map:visited {
+    color: #171211;
+}
+
+.web-map:hover {
+    color: #D9920F;
+}
+
+.web-map:active {
+    color: #302C2A;
+}
+
+.copyright{
+    color:#c0871e;
+}
