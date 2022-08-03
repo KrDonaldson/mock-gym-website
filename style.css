@@ -26,3 +26,14 @@
 .copyright{
     color:#c0871e;
 }
+
+.form-select, .form-control {
+    border: none;
+    border-bottom: 1px solid #000000;
+    border-radius: 0;
+}
+
+.form-select:focus, .form-control:focus {
+    box-shadow: none;
+    border-bottom-color: #2196f3;
+}
