@@ -10,26 +10,36 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="style.css">
 <title>Modern Day Warrior</title>
+<style>
+    
+
+</style>
 </head>
-<body>
-    <a href="home.html">LOGO</a>
-    <h1>SIGN IN</h1>
-    <form action="">
-        <div class="form-floating">
-            <input type="email" class="form-control" id="floatingInput" placeholder="Email Address">
-            <label for="floatingInput">Email address</label>
-        </div>
-        <div class="form-floating mb-3">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-        </div>
+<body id="signin-body">
+    <div id="signinpage" class="container d-flex mt-5 pt-5" style="justify-content:center">
         <div>
-            <button type="submit" class="btn btn-primary">Sign In</button>
+            <a id="signinlogo" href="home.html" class="mx-auto text-center" style="text-decoration: none; color: #ffffff;">Modern Day Warrior</a>
+        <h1 class="m-4 text-center align-content-center" style="color:#ffffff; font-size: 45px;">SIGN IN</h1>
+        <form action="" class="d-flex-col justify-content-center">
+            <div class="form-floating m-5">
+                <input type="email" class="form-control" style="background: #123E45; color: whitesmoke; border-color: rgb(0, 0, 0)" id="floatingInput" placeholder="Email Address">
+                <label for="floatingInput" style=" color:rgb(0, 0, 0); font-size:larger">Email Address</label>
+            </div>
+            <div class="form-floating m-5">
+                <input type="password" class="form-control" style="background: #123E45; color: whitesmoke; border-color: rgb(0, 0, 0)" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword" style=" color:rgb(0, 0, 0); font-size:larger">Password</label>
+            </div>
+            <div class="mx-auto text-center">
+                <button type="submit" class="btn btn-warning text-center" style="height: 45px; width: 100px; color:whitesmoke">Sign In</button>
+            </div>
+            <div class="my-5 mx-auto row align-items-center">
+                <a href="#" class="col-sm text-center " style="text-decoration: none; color: black;">Forgot Password </a>
+                <p class="col-sm text-center my-auto" style="color: black;"> or </p>
+                <a href="#" class="col-sm text-center" style="text-decoration: none; color: black;"> Create an Account</a>
+            </div>
+        </form>
         </div>
-        <div>
-            <a href="#">Forgot Password</a> or <a href="#">Create an Account</a>
-        </div>
-    </form>
+    </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
