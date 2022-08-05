@@ -1,5 +1,5 @@
 *{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     font-family:Didot, Cochin, Cambria, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -38,25 +38,25 @@
     border-bottom-color: #2196f3;
 }
 
-#signin-body{
+#signin-body, #logout-body{
     background: #123E45;
 }
 
-#signinlogo {
+.signinlogo {
     font-size:4rem;
 }
 
 @media (max-width: 768px) {  
-    #signinlogo {
+    .signinlogo {
         font-size:3.5rem;}
 }
 
 @media (max-width: 550px) {  
-    #signinlogo {font-size:3rem;}
+    .signinlogo {font-size:3rem;}
 }
 
 @media (max-width: 450px) {  
-    #signinlogo {font-size:2.5rem;}
+    .signinlogo {font-size:2.5rem;}
 }
 
 @media (max-width: 400px) {  

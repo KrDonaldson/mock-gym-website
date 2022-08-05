@@ -11,14 +11,18 @@
 <link rel="stylesheet" href="style.css">
 <title>Modern Day Warrior</title>
 </head>
-<body>
-
-    <a href="home.html">LOGO</a>
-    <form action="">
-        <h1>Are you sure you want to log out?</h1>
-        <button type="submit" class="btn btn-warning">Yes, log me out.</button>
-        <a role="button" class="btn btn-warning" href="home.html">Keep me signed in.</a>
-    </form>
+<body id="logout-body">
+    <div id="signinpage" class="container d-flex-col my-5 p-0">
+        <a href="home.html" class="my-5 signinlogo d-flex aligns-items-center justify-content-center" style="text-decoration: none; color: #ffffff;">Modern Day Warrior</a>
+        <div>
+            <h1 class="m-5 text-center align-content-center" style="color:#ffffff; font-size: 45px;">Are you sure you want to log out?</h1>
+            <form action="" class="d-flex justify-content-evenly my-5">
+                <button type="submit" class="btn btn-secondary mx-2" style="height: 45px; width: 155px; color:whitesmoke">Yes, log me out.</button>
+                <a role="button" class="btn btn-warning mx-2 d-flex aligns-items-center justify-content-center" href="home.html" style="height: 45px; width: 155px; color:whitesmoke">Keep me signed in.</a>
+            </form>
+        </div>
+    </div>
+    
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
