@@ -14,14 +14,14 @@
 <body>
 
     <!-- navbar -->
-    <div class="row p-0 m-0 g-0 fixed-top">
+    <div class="row p-0 m-0 g-0 fixed-top" style="height: 100px">
         <nav class="col navbar navbar-expand-lg navbar-dark bg-light p-0">
-            <div class="container-fluid p-0" style="background-color:#452A13; color: #D9920F; height:100px">
-                <a class="navbar-brand fs-2" style="color: #D9920F;" href="home.html">Modern Day Warrior</a>
+            <div class="container-fluid p-0 col" style="background-color:#171211; color: #D9920F; height:100px">
+                <a class="navbar-brand fs-2  ms-4" style="color: #D9920F;" href="home.html">Modern Day Warrior</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation" >
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarScroll" style="background-color:#452A13;">
+                <div class="collapse navbar-collapse" id="navbarScroll" style="background-color:#171211;">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100%;">
                         <li class="nav-item">
                             <a class="nav-link" style="color: #D9920F;" href="home.html">Home</a>
@@ -45,9 +45,12 @@
                 </div>
             </div>
         </nav>
-        <a class="col-2 col-xl-1 text-decoration-none text-center fs-4" style="background-color:#132E45; color: #FBBB04" href="register.html">Sign Up</a>
+        <div class="navbar col-2 d-flex aligns-items-center justify-content-center" style="background-color:#132E45; height: 100px; ">
+            <a class="text-decoration-none" style="color: #FBBB04; font-size:1.5rem; " href="register.html">Join</a>
+        </div>
     </div>
     <!-- end navbar -->
+
     <div id="group-training">
         <div class="group-image">
             <img class="" src="./static/logan-weaver-lgnwvr-9D_rUDe7xvA-unsplash.jpg" alt="Two persons in pink tops and black pants wearing boxing gloves." style="width:100%">
