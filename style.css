@@ -101,3 +101,25 @@
     transform: translateY(0);
 }
 
+#about-body{
+    background-color: #000000;
+}
+
+.light-green{
+    background-color:#88A29F
+}
+
+.dark-green{
+    background-color: #12453F;
+    color: whitesmoke
+}
+
+.about-title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about-text{
+    text-align: center;
+    font-size: 2rem;
+}
