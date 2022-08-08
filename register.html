@@ -15,72 +15,89 @@
 </head>
 <body>
 
-    <!-- navbar -->
-    <div class="row p-0 m-0 g-0 fixed-top">
-        <nav class="col navbar navbar-expand-lg navbar-dark bg-light p-0">
-            <div class="container-fluid p-0" style="background-color:#171211; color: #D9920F; height:100px">
-                <a class="navbar-brand fs-2  ms-5" style="color: #D9920F;" href="home.html">Modern Day Warrior</a>
-            </div>
-        </nav>
-    </div>
-    <!-- end navbar -->
-    <div class="m-5 p-5">
+<!-- navbar -->
+<div class="row p-0 m-0 g-0 fixed-top">
+    <nav class="col navbar navbar-expand-lg navbar-dark bg-light p-0">
+        <div class="container-fluid p-0" style="background-color:#171211; color: #D9920F; height:100px">
+            <a class="navbar-brand fs-2  ms-5" style="color: #D9920F;" href="home.html">Modern Day Warrior</a>
+        </div>
+    </nav>
+</div>
+<!-- end navbar -->
+
+<!-- form  -->
+    <div class="form-container mt-5 pt-5">
         <form class="m-5">
             <div>
                 <h1>One low monthly cost!</h1>
             </div>
-            <div class="form-floating">
-                <input type="text" class="form-control" id="floatingFirstName" placeholder="First Name">
-                <label for="floatingFirstName">First Name</label>
+            <div class="row p-0 m-0">
+                <div class="form-floating col-md">
+                    <input type="text" class="form-control" id="floatingFirstName" placeholder="First Name">
+                    <label for="floatingFirstName">First Name</label>
+                </div>
+                <div class="form-floating col-md">
+                    <input type="text" class="form-control" id="floatingLastName" placeholder="Last Name">
+                    <label for="floatingLastName">Last Name</label>
+                </div>            
             </div>
-            <div class="form-floating">
-                <input type="text" class="form-control" id="floatingLastName" placeholder="Last Name">
-                <label for="floatingLastName">Last Name</label>
+            <div class="row p-0 m-0">
+                <div class="form-floating col-md">
+                    <input type="text" class="form-control" id="floatingPronoun" placeholder="Pronouns">
+                    <label for="floatingPronouns">Pronouns</label>
+                </div>
+                <div class="form-floating col-md">
+                    <input type="date" class="form-control" id="floatingDate" aria-label="Date of Birth" placeholder="Date of Birth">
+                    <label for="floatingDate">Date of Birth</label>
+                </div>
+                <div class="form-floating col-md">
+                    <input type="phone" class="form-control" id="floatingPhone" aria-label="Phone Number" placeholder="Phone Number">
+                    <label for="floatingPhone">Phone Number</label>
+                </div>
             </div>
-            <div class="form-floating">
-                <input type="text" class="form-control" id="floatingPronoun" placeholder="Pronouns">
-                <label for="floatingPronouns">Pronouns</label>
+            <div class="row p-0 m-0">
+                <div class="form-floating col-md">
+                    <input type="email" class="form-control" id="floatingInput" aria-label="Email Address" placeholder="Email Address">
+                    <label for="floatingInput">Email address</label>
+                </div>
             </div>
-            <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" aria-label="Email Address" placeholder="Email Address">
-                <label for="floatingInput">Email address</label>
+            <div class="row p-0 m-0">
+                <div class="form-floating col-md">
+                    <input type="address" class="form-control" id="floatingAddress" aria-label="Address" placeholder="Address">
+                    <label for="floatingAddress">Street Address</label>
+                </div>
             </div>
-            <div class="form-floating">
-                <input type="phone" class="form-control" id="floatingPhone" aria-label="Phone Number" placeholder="Phone Number">
-                <label for="floatingPhone">Phone Number</label>
+            <div class="row p-0 m-0">
+                <div class="form-floating col-md">
+                    <input type="text" class="form-control" id="floatingCity" aria-label="City" placeholder="City">
+                    <label for="floatingCity">City</label>
+                </div>
+                <div class="form-floating col-md">
+                    <input type="text" class="form-control" id="floatingState" maxlength="2" aria-label="State" placeholder="State">
+                    <label for="floatingState">State</label>
+                </div>
+                <div class="form-floating col-md">
+                    <input type="text" class="form-control" id="floatingZip" maxlength="5" aria-label="Zip Code" placeholder="Zip Code">
+                    <label for="floatingZip">Zip Code</label>
+                </div>
             </div>
-            <div class="form-floating">
-                <input type="date" class="form-control" id="floatingDate" aria-label="Date of Birth" placeholder="Date of Birth">
-                <label for="floatingDate">Date of Birth</label>
+            <hr class="mx-2 my-4">
+            <div class="p-2 m-0">
+                <h5>Enter a password to create an Account</h5>
+                <p>This will make it easier to log in and manage your account.</p>
             </div>
-            <div class="form-floating">
-                <input type="address" class="form-control" id="floatingAddress" aria-label="Address" placeholder="Address">
-                <label for="floatingAddress">Street Address</label>
+            <div class="row p-0 m-0">
+                <div class="form-floating col-md">
+                    <input type="password" class="form-control" id="floatingPassword" aria-label="Password" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
             </div>
-            <div class="form-floating">
-                <input type="text" class="form-control" id="floatingCity" aria-label="City" placeholder="City">
-                <label for="floatingCity">City</label>
-            </div>
-            <div class="form-floating">
-                <input type="text" class="form-control" id="floatingState" maxlength="2" aria-label="State" placeholder="State">
-                <label for="floatingState">State</label>
-            </div>
-            <div class="form-floating">
-                <input type="text" class="form-control" id="floatingZip" maxlength="5" aria-label="Zip Code" placeholder="Zip Code">
-                <label for="floatingZip">Zip Code</label>
-            </div>
-            <hr>
-            <h3>Create an Account</h3>
-            <p>This will make it easier to log in and manage your account.</p>
-            <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" aria-label="Password" placeholder="Password">
-                <label for="floatingPassword">Password</label>
-            </div>
-            <div>
-                <input type="submit" class="btn btn-lg btn-outline-warning">
+            <div class="p-3 d-flex justify-content-end">
+                <input type="submit" class="btn btn-lg btn-warning">
             </div>
         </form>
     </div>
+<!-- end form  -->
 
 <!-- footer -->
 <footer class="text-center pt-4" style="background-color: #123E45; color:whitesmoke">

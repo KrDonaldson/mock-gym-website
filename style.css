@@ -171,3 +171,8 @@
     width:100%;
     position:absolute;
 }
+
+.form-container{
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+}
